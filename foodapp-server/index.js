@@ -16,7 +16,7 @@ app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.gctiqmx.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.nt4c5sa.mongodb.net/?retryWrites=true&w=majority`;
 
 // const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.gctiqmx.mongodb.net/?retryWrites=true&w=majority&tls=true&tlsAllowInvalidCertificates=true`;
 
